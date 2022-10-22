@@ -1,0 +1,91 @@
+body {
+  background-image: url(washi-pattern-012.jpg);
+}
+
+header {
+  background-color: #4e8098;
+  height: 60px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.header-logo {
+  font-size: 25px;
+  font-family: cursive;
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+  color: #f4f1de;
+}
+
+.icon img {
+  width: 56px;
+  height: auto;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+}
+
+.main {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  padding-top: 70px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.information {
+  font-size: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 5px double #32322c;
+  border-radius: 10px;
+  width: 400px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.button {
+  border-radius: 20%; /* 角丸       */
+  font-size: 15pt; /* 文字サイズ */
+  text-align: center; /* 文字位置   */
+  cursor: pointer; /* カーソル   */
+  padding: 12px 12px; /* 余白       */
+  background: #d5896f; /* 背景色     */
+  color: #f4f1de; /* 文字色     */
+  line-height: 1em; /* 1行の高さ  */
+  transition: 0.3s; /* なめらか変化 */
+  box-shadow: 3px 3px #666666; /* 影の設定 */
+  border: 2px solid #d5896f; /* 枠の指定 */
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #4e8098;
+  color: #f4f1de;
+  height: 60px;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+}
+
+.footer-logo {
+  text-align: right;
+  font-size: 25px;
+  font-family: cursive;
+  padding-left: 20px;
+  padding-top: 10px;
+  color: #f4f1de;
+}
